@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel App</title>
+    <link rel="stylesheet" href="/src/client/style.css">
+</head>
+<body>
+    <h1>Travel App</h1>
+    <form id="travel-form">
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination" required>
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+        <button type="submit">Get Info</button>
+    </form>
+    <div id="results"></div>
+    <script src="src/client/app.js"></script>
+</body>
+</html>

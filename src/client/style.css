@@ -1,0 +1,22 @@
+body{
+    background-image: url("https://miro.medium.com/v2/resize:fit:1400/format:webp/1*nvD7NzCRDKtPrSJWERRPhg.jpeg");
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+}
+
+#travel-form{
+    text-align: center;
+}
+
+
+#results{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(246, 190, 236, 0.508);
+    width: 500px;
+    text-align: center;
+
+}
